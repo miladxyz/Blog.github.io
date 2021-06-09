@@ -1,17 +1,24 @@
 module.exports = {
+  // Customize your site metadata:
   siteMetadata: {
-    title: "Blog",
+    title: `My Blog Title`,
+    author: `My Name`,
+    description: `My site description...`,
+    social: [
+      {
+        name: `twitter`,
+        url: `https://twitter.com/gatsbyjs`,
+      },
+      {
+        name: `github`,
+        url: `https://github.com/gatsbyjs`,
+      },
+    ],
   },
   plugins: [
-    "gatsby-plugin-styled-components",
-    "gatsby-plugin-mdx",
     {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "pages",
-        path: "./src/pages/",
-      },
-      __key: "pages",
+      resolve: `gatsby-theme-blog`,
+      options: {},
     },
   ],
-};
+}
