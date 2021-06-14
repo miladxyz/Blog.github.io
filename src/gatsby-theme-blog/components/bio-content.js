@@ -8,8 +8,8 @@ export default function Bio() {
   return (
     <>
       Hello World!,
-      {` `}
-      I'm Milad.
+      <br />
+      I'm Milad,
       <br />
       Front-end Developer.
     </>
