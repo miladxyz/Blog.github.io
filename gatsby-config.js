@@ -4,7 +4,6 @@ module.exports = {
     title: `Home`,
     author: `Milad Bahramzadeh`,
     description: `I decided to share everything I know.`,
-    siteUrl: `https://milad.xyz`,
     social: [
       {
         name: `twitter`,
