@@ -1,9 +1,10 @@
 module.exports = {
   // Customize your site metadata:
   siteMetadata: {
-    title: `My Blog Title`,
-    author: `My Name`,
-    description: `My site description...`,
+    title: `Home`,
+    author: `Milad Bahramzadeh`,
+    description: `I decided to share everything I know.`,
+    siteUrl: `https://milad.xyz`,
     social: [
       {
         name: `twitter`,
@@ -12,6 +13,10 @@ module.exports = {
       {
         name: `github`,
         url: `https://github.com/miladxyz`,
+      },
+      {
+        name: `linkedin`,
+        url: `https://linkedin.com/in/miladbahramzadeh/`,
       },
     ],
   },
